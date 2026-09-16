@@ -1,0 +1,14 @@
+{
+  "name": "juku-calendar-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "playwright": "^1.49.1"
+  }
+}
